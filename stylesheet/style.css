@@ -1,0 +1,16 @@
+#button {
+    display: block;
+    width:350px;
+    margin:10px auto;
+    padding:7px 13px;
+    text-align:center;
+    background:green;
+    font-size:28px;
+    font-family: 'Arial', sans-serif;
+    color:#ffffff;
+}
+
+#button:active {
+    vertical-align: top;
+    padding: 9px 13px 5px;
+}
