@@ -1,15 +1,15 @@
 
 function myColor() {
-    document.getElementById("button").style.color = getRandomColor();
+    document.getElementById("colorfield").style.color = getRandomColor();
 }
 
 function myBackground() {
-    document.getElementById("button").style.background = getRandomColor();
+    document.getElementById("colorfield").style.background = getRandomColor();
 }
 
 function myReset() {
-    document.getElementById("button").style.background = "green";
-    document.getElementById("button").style.color = "white";
+    document.getElementById("colorfield").style.background = "green";
+    document.getElementById("colorfield").style.color = "white";
 }
 
 function getRandomColor() {
